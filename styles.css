@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+.purple {
+    color: #7342d6;
+    }
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+nav {
+height: 80px;
+display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-height: 50vh;
+    padding: 20px;
+}
+
+p {
+line-height: 1.5;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+}
+
+ul { 
+display: flex; 
+}
+
+li{
+list-style-type: none;    
+}
+    
+
+.nav__link { 
+margin-left: 16px;
+text-decoration: none;
+font-size: 15px;
+color: #3d3d3f;
+padding: 8px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: #7342d6 ;
+}
+
+.nav__link--primary {
+    border: 2px solid #7342d6;
+    border-radius: 20px;
+    background-color: #7342d6;
+    color: white;
+    font-weight: bold;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #4d18b7;
+}
+
+header {
+    height: calc(100vh - 80px);
+}
+
+.header__container {
+    padding-top: 24px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__description {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.btn {
+    background-color: #7342d6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+} 
+    
+.header__img--wrapper {
+padding: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.container {
+padding: 56px 0;
+}
+
+.row {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(12, 238, 12);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.btn__green{
+background-color:rgb(57, 196, 154);
+color: white;
+padding: 12px 24px;
+border-radius: 20px;
+border: none;
+}
+
+.btn__white{
+    background-color:white;
+    color:blue;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+    }
+    
+ .btn__red{
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+      }
+
+.btn__gray{
+    background-color: rgb(240, 236, 236);
+    color: blue;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: none;
+     } 
+
+.btn__orange{
+  background-color: orangered;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 20px;
+  border: none;
+     }
+
+/*
+
+Highlights
+
+*/
+
+#highlights:after
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+   padding: 0 24px;
+   width: calc(100% / 3);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column; 
+}
+
+.highlight__para {
+    text-align: center;
+    max-width: 280px;
+}
+
+.highlight__img {
+    border:  2px solid gainsboro;
+    color: #7342d6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.computer__img {
+   max-height: 580px; 
+   max-width: 580px;
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+}
+
+.img__customer {
+width: 5%;
+transform: scale(1.5);
+padding-top: 8px;
+}
+
+.img__logo {
+    max-height: 100px; 
+    max-width: 100px;
+}
+
+.footer__btn {
+    display: flex;
+    flex-direction: column;
+}
